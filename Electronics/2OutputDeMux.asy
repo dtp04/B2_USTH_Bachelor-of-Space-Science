@@ -1,0 +1,21 @@
+Version 4
+SymbolType BLOCK
+LINE Normal -32 -16 -16 -16
+LINE Normal -32 16 -16 16
+LINE Normal 0 48 0 32
+LINE Normal 32 0 16 0
+RECTANGLE Normal 16 32 -16 -32
+TEXT -13 -27 Left 0 2x1
+TEXT 12 3 VLeft 0 DeMux
+PIN -32 -16 RIGHT 8
+PINATTR PinName Y0
+PINATTR SpiceOrder 1
+PIN -32 16 RIGHT 8
+PINATTR PinName Y1
+PINATTR SpiceOrder 2
+PIN 0 48 TOP 8
+PINATTR PinName S
+PINATTR SpiceOrder 3
+PIN 32 0 LEFT 8
+PINATTR PinName D
+PINATTR SpiceOrder 4
